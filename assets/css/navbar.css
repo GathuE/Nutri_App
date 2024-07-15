@@ -1,0 +1,144 @@
+.navigation-clean-button {
+  background:#fff;
+  padding-top:.35rem;
+  padding-bottom:.35rem;
+  color:#222;
+  border-radius:0;
+  box-shadow:none;
+  border:none;
+  margin-bottom:0;
+}
+.navbar-light{
+  background:#421966;
+}
+.navbar-toggler{
+  color:#fff;
+}
+.navbar-toggler:hover{
+  color:#138ea4;
+}
+
+@media (min-width:768px) {
+  .navigation-clean-button {
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+}
+
+.navigation-clean-button .navbar-brand {
+  font-weight:bold;
+  color:#fff;
+}
+
+.navigation-clean-button .navbar-brand:hover {
+  color:#138ea4;
+}
+
+.navigation-clean-button .navbar-toggler {
+  border-color:#ddd;
+  color:#421966;
+}
+
+.navigation-clean-button .navbar-toggler:hover, .navigation-clean-button .navbar-toggler:focus {
+  background:none;
+  border:0;
+}
+
+.navigation-clean-button .navbar-toggler {
+  color:#421966;
+}
+
+.navigation-clean-button .navbar-collapse, .navigation-clean-button .form-inline {
+  border-top-color:#ddd;
+}
+
+.navigation-clean-button .navbar-nav a.active, .navigation-clean-button .navbar-nav > .show > a {
+  background:none;
+  box-shadow:none;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav a.active, .navigation-clean-button.navbar-light .navbar-nav a.active:focus, .navigation-clean-button.navbar-light .navbar-nav a.active:hover {
+  color:#421966;
+  box-shadow:none;
+  background:none;
+  pointer-events:none;
+}
+
+.navigation-clean-button.navbar .navbar-nav .nav-link {
+  padding-left:18px;
+  padding-right:18px;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link {
+  color:#421966;
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link:focus, .navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
+  color:#138ea4 !important;
+  background-color:transparent;
+}
+
+.navigation-clean-button .navbar-nav > li > .dropdown-menu {
+  margin-top:-5px;
+  box-shadow:0 4px 8px rgba(0,0,0,.1);
+  background-color:#fff;
+  border-radius:2px;
+}
+
+.navigation-clean-button .dropdown-menu .dropdown-item:focus, .navigation-clean-button .dropdown-menu .dropdown-item {
+  line-height:2;
+  font-size:14px;
+  color:#421966;
+}
+
+.navigation-clean-button .dropdown-menu .dropdown-item:focus, .navigation-clean-button .dropdown-menu .dropdown-item:hover {
+  background:#eee;
+  color:inherit;
+}
+
+.navigation-clean-button .actions .signup {
+  margin-right:1rem;
+  text-decoration:none;
+  color:#421966;
+  
+}
+.navigation-clean-button .actions .signup:hover {
+  margin-right:1rem;
+  text-decoration:none;
+  color:#138ea4;
+  
+}
+
+.navigation-clean-button .navbar-text .action-button, .navigation-clean-button .navbar-text .action-button:active, .navigation-clean-button .navbar-text .action-button:hover {
+  background:#421966;
+  border-radius:20px;
+  font-size:inherit;
+  color:#fff;
+  box-shadow:none;
+  border:none;
+  text-shadow:none;
+  padding:.5rem 1rem;
+  transition:background-color 0.25s;
+  font-size:inherit;
+}
+
+.navigation-clean-button .navbar-text .action-button:hover {
+  background:#421966;
+}
+
+.glow {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #421966, 0 0 30px #421966, 0 0 40px #421966, 0 0 50px #421966, 0 0 60px #421966, 0 0 70px #421966, 0 0 80px #421966;
+  }
+}

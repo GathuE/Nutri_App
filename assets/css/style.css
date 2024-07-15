@@ -1,0 +1,324 @@
+body{
+    background-color:#f1f7fc;
+    font-size: 14px;
+}
+
+.content{
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+}
+#notificationscard{
+  background-color: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    height:20px;
+    border:0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+#smscard{
+  background-color: #fff;
+  width:150px;
+  height: 40px;
+  border-radius:4px;
+  border: none;
+  padding:5px;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+  float:right;
+}
+#alerts{
+  margin-top:10px;
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align:center;
+  margin-bottom: 0px;
+  height:20px;
+}
+
+#picturediv{
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius:4px;
+  border: none;
+  padding:10px;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+
+}
+#successdiv{
+  display: none;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius:4px;
+  border: none;
+  padding:10px;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+
+}
+#successdiv p{
+  text-align: center;
+  color: #138ea4;
+  font-weight: bold;
+}
+#disclaimerdiv{
+  display: none;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius:4px;
+  border: none;
+  padding:10px;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+
+}
+#disclaimerdiv p{
+  text-align: center;
+  color: #138ea4;
+  font-weight: bold;
+}
+.card-body hr {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  height:1px;
+  width:250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color:#138ea4;
+}
+.card-body h5 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#421966;
+
+}
+.card-body p{
+  font-size: 14px;
+  color:#505e6c;
+  text-align:justify;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#card_one{
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 480px;
+    margin-top: relative;
+    margin-bottom: 30px;
+}
+#card_two{
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 480px;
+    margin-top: relative;
+    margin-bottom: 30px;
+}
+#payments_card{
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: relative;
+  margin-bottom: 30px;
+  color:#421966;
+  width:auto;
+  max-width: 500px;
+}
+#textbox {
+  max-width:600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+#messagecard {
+  max-width:600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+#chathistory{
+  max-width:600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* BIO DATA FORM STYLING */
+/* Mark areas that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+  }
+  textarea.invalid {
+    background-color: #ffdddd;
+  }
+  select.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  .label{
+    font-weight: bold;
+  }
+  
+  button {
+    background-color:#421966;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #138ea4;
+    outline: none;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #138ea4;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #421966;
+  }
+
+
+ /* SHOW BMI USER CARD: */
+  #data_card{
+    background-color: #fff;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: relative;
+      margin-bottom: 30px;
+      max-width: 480px;
+      
+  }
+  #bmi_card{
+    background-color: #fff;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: relative;
+      margin-bottom: 30px;
+      max-width: 480px;
+  }
+/* END OF SHOW BMI USER CARD: */
+
+.wfields{
+  visibility: hidden;
+}
+/* NUTRITIONIST INVITE SECTION: */
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  
+}
+#footer_card{
+  background-color: #421966;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  margin-top: 30px;
+  border-radius: 5spx;
+  text-align: center;
+  padding-top:5px;
+}
+#footer_card2{
+  background-color:#138ea4;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  margin-top: 30px;
+  border-radius: 5spx;
+  text-align: center;
+  padding-top:5px;
+}
+#footer_card > h5, #footer_card2 > h5{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+}
+#footer_card > a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  color:#138ea4;
+  text-decoration: none;
+}
+
+#footer_card2 > a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  color:#fff;
+  text-decoration: none;
+}
+
+/* END OF NUTRITIONIST INVITE SECTION: */
+
+/* Emphasy Information */
+#emphasy_info{
+  color:#138ea4;
+  font-weight: bold;
+}
+/* Emphasy Information */
+
+
+.refferal_form{
+  font-size: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height:auto;
+}
+.refferal_form input{
+  border-color:#138ea4;
+}
+.refferal_form select{
+  width:100%;
+  height:auto;
+}
+.referral_form label{
+  font-size: 14px;
+  color:#421966;
+}
+.referral_form button{
+  font-size: 14px;
+  background-color:#421966;
+  color: #fff;
+  padding: 5px;
+
+}
+

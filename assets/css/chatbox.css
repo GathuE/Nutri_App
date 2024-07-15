@@ -1,0 +1,23 @@
+#client_replies{
+  width:wrap-content;
+  margin-top:10px;
+  padding-left:20px;
+  padding-right:10px;
+  border:0;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  
+}
+
+#client_messages{
+  width:wrap-content;
+  margin-top:10px;
+  padding-left:20px;
+  padding-right:10px;
+  border:0;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  
+}
